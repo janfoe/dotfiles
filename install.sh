@@ -11,3 +11,6 @@ cd .. && rm -rf fonts
 
 # oh-my-zsh & plugins
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
+
+# set .zshrc
+cp .zshrc ~/.zshrc
