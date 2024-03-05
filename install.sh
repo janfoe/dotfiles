@@ -14,7 +14,3 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 
 # set .zshrc
 cp .zshrc ~/.zshrc
-
-# adjust git config
-git config --global --unset diff.external
-git config --global --unset commit.gpgsign
